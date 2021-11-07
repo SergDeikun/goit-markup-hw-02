@@ -97,6 +97,7 @@ body {
 font-weight: bold;
 font-size: 16px;
 line-height: 1.88;
+background-color: #2196F3;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 }
@@ -106,9 +107,7 @@ color: #FFFFFF;
 }
 
 .hero-btn:hover,
-.hero-btn:focus {
-    color:var(--hover-color)
-}
+.hero-btn:focus
 
                 /* ABOUT*/
 .about {
@@ -227,13 +226,36 @@ color: #FFFFFF;
     line-height: 1.19;
     font-weight: 700;
     letter-spacing: 0.03em
+    }
 
                 /* ПОРТФОЛИО */
     .portfolio-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    background-color:#F5F4FA;
     letter-spacing: 0.03em;
-    color:--
+    color: var(--portfolio-btn-color);
+    }
 
+    .portfolio-btn:hover,
+    .portfolio-btn:focus {
+        background-color: var(--hover-color);
+    color:#FFFFFF;
+    }
+
+    .portfolio-item-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2; 
+    letter-spacing: 0.06em;
+    color:var(--title-collor)
+    }
+
+    .portfolio-item-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color:var(--main-text-color)  
     }
