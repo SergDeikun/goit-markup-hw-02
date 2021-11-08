@@ -220,7 +220,7 @@ color: #FFFFFF;
 }
 
     .logo-footer-studio {
-    color: #000000;
+    color: #FFFFFF;
     font-family: Raleway;
     font-size: 26px;
     line-height: 1.19;
@@ -242,6 +242,10 @@ color: #FFFFFF;
     .portfolio-btn:focus {
         background-color: var(--hover-color);
     color:#FFFFFF;
+    }
+
+    .portfolio-btn {
+    cursor: pointer;
     }
 
     .portfolio-item-title {
